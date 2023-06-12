@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인천 일보 아카데미</title>
+  <style>
+    * {padding: 0; margin: 0;}
+    ul {list-style: none; overflow: hidden; display: flex; justify-content: space-between;
+      padding: 0 10px;}
+    li {background-color: rgb(3, 199, 90);
+      height: 40px; text-align: center; line-height: 40px; flex-grow: 1; margin: 0 5px;}
+    a {color: white; text-align: none; display: block;}
+    header {display: flex; justify-content: center;}
+    main {display: flex;}
+    aside {background-color: beige; width: 100px; min-height: 600px; flex-shrink: 0;}
+    section {width: 10000px; min-height: 600px; float: left; background-color: white;}
+    footer {background-color: lightgrey;}
+  </style>
+</head>
+<body>
+  <div id="page">
+    <header><h1>인천 일보 아카데미</h1></header>
+    <nav>
+      <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Video</a></li>
+      </ul>
+    </nav>
+    <main>
+      <aside></aside>
+      <section></section>
+      <aside></aside>
+    </main>
+    <footer>
+      <p>전화번호 : 010-1234-5678</p>
+      <p>주소 : XX시 XX구 XX동 XX아파트 XX호</p>
+    </footer>
+  </div>
+</body>
+</html>
